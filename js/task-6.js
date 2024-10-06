@@ -28,7 +28,7 @@ boxes.style.gap = "8px";
 const createBoxes = () => {
   if (amount <= 100 && amount > 0) {
     boxes.innerHTML = "";
-    let size = 10;
+    let size = 30;
     for (let i = 0; i < amount; i++) {
       const newBox = document.createElement("div");
       newBox.style.backgroundColor = getRandomHexColor();
